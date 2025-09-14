@@ -13,7 +13,7 @@ and forecast for cities. I use python-telegram-bot and OpenWeather API.
 
 3. After generating your API key, copy it into the "OPENWEATHER_API_KEY" variable within the .env file using this format:
 ```bash
-WEATHERAPI_KEY = 'your-api-key'
+OPENWEATHER_API_KEY = 'your-api-key'
 ```
 4. Create your new bot in the Telegram. Use chat with @BotFather.
 - send `/newbot`, create the new bot name and get an API token.
@@ -73,6 +73,13 @@ heroku create
 heroku config:set TELEGRAM_TOKEN=... OPENWEATHER_API_KEY=... WEBHOOK_URL=https://<app>.herokuapp.com
 git push heroku main
 ```
+## Features
+
+- /weather `<city>` — current weather
+- /forecast `<city>` — forecast for 5 intervals (~15h)
+- Inline buttons with a choice of popular cities
+- Weather icons
+- Webhook mode for deployment on Heroku
 
 ## Connect with me
 
