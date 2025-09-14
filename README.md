@@ -1,7 +1,7 @@
 # Welcome to Telegram Bot Weather Application
 
 This is a simple weather application built with Python. It shows the current weather
-and forecast for cities. I use python-telegram-bot and OpenWeather API.
+and forecast for cities in Telegram. I use python-telegram-bot and OpenWeatherMap API.
 
 
 ## Pre-Requisites:
