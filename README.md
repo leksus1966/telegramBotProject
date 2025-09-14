@@ -68,6 +68,22 @@ $ python -m app.bot
 docker build -t telegram-weather-bot .
 docker run --env-file .env telegram-weather-bot
 ```
+
+**How to start with docker-compose**
+```bash
+docker-compose up -d --build
+```
+
+Check logs from container
+```bash
+docker-compose logs -f
+```
+
+Stop the container
+```bash
+docker-compose stop
+```
+
 **How to start this application on Heroku**
 ```bash
 heroku create

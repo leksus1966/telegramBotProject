@@ -1,0 +1,7 @@
+services:
+  telegram-weather-bot:
+    build: .
+    container_name: telegram-weather-bot
+    command: python -m app.bot
+    env_file: .env
+    restart: always
