@@ -9,7 +9,8 @@ and forecast for cities. I use python-telegram-bot and OpenWeather API.
 1. Install the latest version of [Python](https://www.python.org/downloads/)
    - I used the Python 3.13
 
-2. Sign up for a free account at [weatherapi.com](https://www.weatherapi.com/), log in, and generate your new API key in the dashboard section.
+2. Sign up for a free account at [openweathermap](https://openweathermap.org/), 
+3. Log in to [home page](https://home.openweathermap.org/api_keys), and generate your new API key.
 
 3. After generating your API key, copy it into the "OPENWEATHER_API_KEY" variable within the .env file using this format:
 ```bash
@@ -52,7 +53,7 @@ $  source .venv/bin/activate
 
 **Install packages**
 ```
-$ pip install -r requirements.txt
+$ python3 -m pip install -r requirements.txt
 ```
 
 **Now Run the App**
